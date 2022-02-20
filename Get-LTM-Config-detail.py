@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import openpyxl
-from openpyxl.styles import Font, Alignment
 import bigsuds
 def get_vs():
     vss=b.LocalLB.VirtualServer.get_list()
